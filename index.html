@@ -1,52 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Login</title>
-</head>
-<style>
-
-    input[type=text], input[type=password] {
-          width: 99.5%;
-            padding: 10px 0px;
-              margin: 7px 0;
-                display: inline-block;
-                  border: 1px solid #ccc;
-                    box-sizing: border-b
-    }
+<html>
+  <head>
+    <title>Login Now</title>
     
-    input[type=submit] {
-          width: 99.5%;
-          height: 2rem;
-          color: white;
-          background-color: dodgerblue;
-          
-    }
-
-</style>
-<body>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  
+  <body class="bg_png">
     
-    <h2 style="text-align: center; color: white; background-color: black;">SIGN IN Now</h2>
-    <div>
-        <form action="" style="border: 1px solid black; width: 350px; height: 390px; margin-left: auto; margin-right: auto; background-color: rgba(255, 200, 0, 0.292);">
-            <h3 style="text-align: center;">Login Your Account</h3>
-            <hr><br>
-            <label for="utext">Email Or Phone Number : </label><br>
-            <Input type="text" name="utext" id="utext" placeholder="Email Or Phone Number " required><br><br>
-
-            <label for="password">Password : </label><br>
-            <input type="password" name="password" id="password" placeholder="Password" required><br><br>
-            
-
-            <input type="submit" value="Login"><br>
-
-            <hr>
-            <p style="text-align: center;"><a href="http://" target="_blank" rel="noopener noreferrer">Forgot Password </a></p>
-            
-            <p style="text-align: center;"><a href="https://developerhasan4.github.io/signup" target="_blank" rel="noopener noreferrer">I don't have an account</a></p>
-
-
-
-        </form>
+    <!--for nav bar-->
+    
+    <div class="nav_div">
+    
+   <header>
+     <img src="/png/nav_logo.png" alt="logo" class="nav_logo">
+     <nav>
+       <ul class="nav_link">
+         <li class="iteam"><a href="" class="iteam">Home</a></li>
+         
+         <li class="iteam"><a href="" class="iteam">Service</a></li>
+         
+         <li class="iteam"><a href="" class="iteam">About</a></li>
+       </ul>
+     </nav>
+     
+     <a class="nav_login" href=""><button class="nav_but">Sign Up</button></a>
+   </header>
+   </div>
+    
+    
+    
+    
+    
+    <!-- Login Page -->
+    
+    <main>
+    
+    <div class="login_form">
+      
+      <div class="logo">
+      <img src="/png/logo.png" class="logo">
+      </div>
+       <p class="p_logo">Please login your facebook account</p>
+       <hr></br> </br>
+    <form action="#">
+      <div class="container">
+      
+      <label for="email"></label>
+      <input type="text" class="email"  placeholder="Email or mobile number" required/></br></br>
+      
+      <label for="pass"></label>
+      <input type="password" class="pass" placeholder="Password" required/></br>
+      </br>
+      <div class="for_login">
+      <input type="submit" class="login" value="Login"/>
+      </div>
+      
+      </div>
+      
+    </form>
+    
+    <div class="div_forgot">
+    
+    <a href="#" class="forgot">Forgot password?</a>
+    
     </div>
-</body>
+    </br>
+    <div class="or">
+      <hr><h3>Or</h3><hr>
+    </div>
+   
+    <div class="new_account">
+      <a href="#" class="link_new">
+        <button class="new_but"><b>Create new account</b></button>
+        </a>
+      
+    </div>
+    
+    </div>
+    </main>
+    
+    
+  </body>
 </html>
